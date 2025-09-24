@@ -225,7 +225,7 @@ services:
           allow:
             - admin
 
-  ## Protected Dashboard - catch all remaining routes
+  ## Protected Dashboard - catch all remaining routess
   - name: dashboard
     _comment: 'Studio: /* -> http://studio:3000/*'
     url: http://$STUDIO_HOST:3000/
